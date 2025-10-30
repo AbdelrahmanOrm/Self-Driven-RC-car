@@ -1,15 +1,17 @@
-Self-Driven RC Car (Autonomous Vehicle using ROS2)
+# Self-Driven RC Car (Autonomous Vehicle using ROS2)
 
 An autonomous RC car developed using the ROS2 (Robot Operating System 2) framework on Linux, capable of real-time mapping, object detection, and path planning. This project demonstrates the integration of robotics software with embedded hardware to achieve a self-driving miniature vehicle.
 
-🧠 Overview
+
+### 🧠 Overview
 
 The goal of this project is to create a fully autonomous RC car that can navigate and make decisions in real-time without human intervention.
 
 The system leverages LiDAR-based SLAM, sensor fusion, and ROS2 nodes to perceive its environment, localize itself, and plan a safe path.
 
 
-⚙️ Key Features
+
+### ⚙️ Key Features
 
 🗺️ LiDAR-based SLAM — Real-time environment mapping using Simultaneous Localization and Mapping (SLAM).
 
@@ -24,7 +26,8 @@ The system leverages LiDAR-based SLAM, sensor fusion, and ROS2 nodes to perceive
 📡 Edge Processing — Sensor data processed on a Raspberry Pi for decision-making and communication with the microcontroller.
 
 
-🛠️ Hardware Components
+
+### 🛠️ Hardware Components
 
 Component	Description:-
 
@@ -47,7 +50,7 @@ Component	Description:-
 
 
 
-💻 Software Stack
+### 💻 Software Stack
 
 Layer	Tools / Frameworks
 
@@ -66,7 +69,7 @@ Layer	Tools / Frameworks
 
 
 
-🔁 System Architecture
+### 🔁 System Architecture
 
 graph TD
 
@@ -85,7 +88,8 @@ F -->|Drive Signals| G [Motors]
 C --> H [Visualization (RViz)]
 
 
-🚀 How It Works
+
+### 🚀 How It Works
 
 1- LiDAR scans the surrounding environment in real time.
 
@@ -106,12 +110,12 @@ C --> H [Visualization (RViz)]
 
 
 
-🧩 Future Improvements
+### 🧩 Future Improvements
 
 - Integrate camera-based vision for lane detection and traffic sign recognition.
-- 
+  
 - Enhance sensor fusion with IMU and GPS data for outdoor navigation.
-- 
+  
 - Implement deep reinforcement learning for decision-making.
-- 
-- Add web-based dashboard for remote monitoring and telemetry.
+  
+- Add a web-based dashboard for remote monitoring and telemetry.
